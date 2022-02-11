@@ -444,7 +444,7 @@ footer .follow-section {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 footer ul {
@@ -455,7 +455,7 @@ footer .social-icons li {
   width: 40px;
   height: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -765,7 +765,7 @@ footer .social-icons li i {
 
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   footer .social-icons li i {
@@ -973,7 +973,7 @@ footer .social-icons li i {
 
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
 
