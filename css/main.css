@@ -304,7 +304,7 @@ figure {
 /* -------------------- Base Header Styles -------------------- */
 
 header {
-  background-color: #ffe8d6;
+  background-color: #e2f0f9;
 }
 
 header nav ul li {
@@ -382,7 +382,7 @@ header h2 {
 }
 
 #skills {
-  background-color: #ffe8d6;
+  background-color: #e2f0f9;
 }
 
 #skills h4 {
@@ -418,7 +418,7 @@ header h2 {
 
 /* -------------------- Base Header Styles -------------------- */
 footer {
-  background-color: #ffe8d6;
+  background-color: #e2f0f9;
 }
 
 footer .contact-wrapper {
@@ -735,10 +735,6 @@ footer .social-icons li i {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-  }
-
-  #about figure {
-    width: 60%;
   }
 
   .about-info h4 {
