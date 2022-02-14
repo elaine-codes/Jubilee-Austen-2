@@ -648,10 +648,6 @@ footer .social-icons li i {
     margin: 80px 0;
   }
 
-  .about-info h4 {
-    margin: 0 0 60px 0;
-  }
-
   .about-text {
     margin: 0 0 30px 0;
   }
@@ -737,10 +733,6 @@ footer .social-icons li i {
     flex-flow: row wrap;
   }
 
-  .about-info h4 {
-    text-align: left;
-  }
-
   /* Footer */
   .contact-wrapper {
     display: flex;
@@ -812,7 +804,7 @@ footer .social-icons li i {
   }
 
   .about-info h3 {
-    font-size: 3.75rem;
+    font-size: 3.5rem;
     text-align: left;
   }
 
@@ -888,6 +880,7 @@ footer .social-icons li i {
 
   .about-info h3 {
     margin: 0;
+    margin-bottom: 30px;
   }
 
   .about-info h4 {
@@ -969,7 +962,7 @@ footer .social-icons li i {
 
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 }
 
