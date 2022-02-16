@@ -962,7 +962,7 @@ footer .social-icons li i {
 
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
 
