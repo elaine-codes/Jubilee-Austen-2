@@ -808,10 +808,6 @@ footer .social-icons li i {
     text-align: left;
   }
 
-  .about-info h4 {
-    font-size: 2rem;
-  }
-
   p {
     font-size: 1.25rem;
   }
@@ -883,12 +879,8 @@ footer .social-icons li i {
     margin-bottom: 30px;
   }
 
-  .about-info h4 {
-    margin: 40px 0;
-  }
-
   .about-text {
-    margin: 0 0 30px 0;
+    margin: 0 0 30px 0px;
   }
 
   .contact-info {
@@ -946,18 +938,13 @@ footer .social-icons li i {
     justify-content: space-between;
   }
 
-  #about figure {
-    width: 35%;
-    margin-top: 0;
-  }
-
   .about-info {
-    width: 58%;
+    width: 70%;
   }
 
   /* contact */
   footer .content-wrapper {
-    max-width: 70%;
+    max-width: 80%;
   }
 
   footer .social-icons {
