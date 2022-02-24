@@ -97,6 +97,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #453e4f;
   background-color: white;
+  background-image: url('../img/hex.png');
+
   /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
 }
 
@@ -117,6 +119,7 @@ h1 {
   font-family: 'Alike', serif;
   font-size: 1.75rem;
   line-height: 1.5;
+  letter-spacing: 2px;
   width: 100%;
 }
 
@@ -154,13 +157,17 @@ h5 {
   font-weight: 400;
 }
 
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: 'Alike', serif;
   line-height: 1.5;
   width: 100%;
+}
+
+h4 {
+  font-family: 'Open Sans', serif;
+  line-height: 1.5;
+  width: 100%;
+  text-transform: uppercase;
 }
 
 p,
@@ -198,7 +205,7 @@ footer {
 }
 
 .content-wrapper {
-  width: 85%;
+  width: 80%;
 }
 
 #work p,
@@ -226,6 +233,8 @@ p {
 header {
   padding-top: 30px;
   padding-bottom: 60px;
+  border-bottom: 2px solid #eee;
+  background: rgba(120, 153, 255, 0.2);
 }
 
 nav {
@@ -234,15 +243,20 @@ nav {
 
 #work {
   padding-top: 60px;
+  border-bottom: 2px solid #eee;
+  background-color: white;
 }
 
 #skills {
   padding-bottom: 80px;
+  border-bottom: 2px solid #eee;
 }
 
 #about {
   padding-top: 60px;
   padding-bottom: 60px;
+  border-bottom: 2px solid #eee;
+  background-color: white;
 }
 
 footer {
@@ -304,9 +318,8 @@ figure {
 /* -------------------- Base Header Styles -------------------- */
 
 header {
-  background-image: url('../img/hex.png');
-  background-color: #286fb4;
-  opacity: 1;
+  background-color: #e2f0f9, 0.6;
+
   border-bottom: #453e4f, ridge;
 }
 
@@ -364,6 +377,7 @@ header h2 {
 
 .home-portfolio-piece h4 {
   font-weight: bold;
+  text-align: left;
 }
 
 .home-portfolio-piece figure {
@@ -384,8 +398,7 @@ header h2 {
 }
 
 #skills {
-  background-color: #e2f0f9;
-  background-image: url('../img/hex.png');
+  background: rgba(120, 153, 255, 0.2);
 }
 
 #skills h4 {
@@ -421,8 +434,7 @@ header h2 {
 
 /* -------------------- Base Header Styles -------------------- */
 footer {
-  background-color: #e2f0f9;
-  background-image: url('../img/hex.png');
+  background: rgba(120, 153, 255, 0.2);
 }
 
 footer .contact-wrapper {
