@@ -304,7 +304,10 @@ figure {
 /* -------------------- Base Header Styles -------------------- */
 
 header {
-  background-color: #e2f0f9;
+  background-image: url('../img/hex.png');
+  background-color: #286fb4;
+  opacity: 1;
+  border-bottom: #453e4f, ridge;
 }
 
 header nav ul li {
@@ -315,7 +318,6 @@ header nav ul li {
 }
 
 nav #contact-link {
-  background-color: #f19494;
   padding: 10px 10px;
   border-radius: 30px;
 }
@@ -383,6 +385,7 @@ header h2 {
 
 #skills {
   background-color: #e2f0f9;
+  background-image: url('../img/hex.png');
 }
 
 #skills h4 {
@@ -419,6 +422,7 @@ header h2 {
 /* -------------------- Base Header Styles -------------------- */
 footer {
   background-color: #e2f0f9;
+  background-image: url('../img/hex.png');
 }
 
 footer .contact-wrapper {
