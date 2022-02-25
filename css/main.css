@@ -153,7 +153,7 @@ h5 {
 
 .about-info h4,
 .contact-title {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h3 {
@@ -262,7 +262,7 @@ footer {
 }
 
 h2 {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -630,7 +630,7 @@ footer .social-icons li i {
   }
 
   h2 {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .portfolio-header {
@@ -712,7 +712,8 @@ footer .social-icons li i {
 
   /* portfolio */
   .portfolio-wrapper {
-    justify-content: space-around;
+    justify-content: space-between;
+    column-gap: 50px;
   }
 
   .home-portfolio-piece {
@@ -941,7 +942,7 @@ footer .social-icons li i {
 
   header nav {
     justify-content: flex-end;
-    width: 45%;
+    width: 50%;
   }
 
   nav ul li a {
@@ -996,7 +997,7 @@ footer .social-icons li i {
   }
 
   footer .social-icons {
-    width: 12.5em;
+    width: 115em;
     justify-content: space-evenly;
   }
 }
