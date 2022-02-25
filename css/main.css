@@ -219,9 +219,7 @@ footer {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   margin: 0;
 }
 
@@ -319,7 +317,6 @@ figure {
 
 header {
   background-color: #e2f0f9, 0.6;
-
   border-bottom: #453e4f, ridge;
 }
 
@@ -360,6 +357,10 @@ header h2 {
   width: 100%;
 }
 
+#work h4 {
+  text-transform: none;
+}
+
 .portfolio-wrapper {
   display: flex;
   justify-content: center;
@@ -386,15 +387,16 @@ header h2 {
 }
 
 .project-link {
-  background-color: #453e4f;
+  background-color: #f19494;
+  border: #453e4f solid;
   padding: 0.75rem 3.75rem;
   border-radius: 30px;
-  color: #ffffff;
+  color: #453e4f;
 }
 
 .project-link:hover {
   background-color: #cac4d1;
-  color: #453e4f;
+  color: #f19494;
 }
 
 #skills {
@@ -734,6 +736,7 @@ footer .social-icons li i {
     width: 100%;
     flex-flow: row wrap;
     text-transform: uppercase;
+    border-radius: 30px;
   }
 
   .skill,
