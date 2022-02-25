@@ -167,7 +167,7 @@ h4 {
   font-family: 'Open Sans', serif;
   line-height: 1.5;
   width: 100%;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 p,
@@ -295,6 +295,7 @@ figure {
 
 .about-info h3 {
   margin: 40px 0 40px 0;
+  letter-spacing: 2px;
 }
 
 .about-text {
@@ -357,10 +358,6 @@ header h2 {
   width: 100%;
 }
 
-#work h4 {
-  text-transform: none;
-}
-
 .portfolio-wrapper {
   display: flex;
   justify-content: center;
@@ -413,6 +410,7 @@ header h2 {
   background-color: #f19494;
   padding: 15px 0;
   margin: 20px 0;
+  border: #453e4f solid;
 }
 
 .tool {
