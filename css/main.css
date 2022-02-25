@@ -358,6 +358,7 @@ header h2 {
 
 .portfolio-wrapper {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
@@ -366,9 +367,9 @@ header h2 {
 .home-portfolio-piece {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
 }
 
 .home-portfolio-piece h4 {
@@ -383,7 +384,6 @@ header h2 {
 
 .project-link {
   background-color: #f19494;
-  border: #453e4f solid;
   padding: 0.75rem 3.75rem;
   border-radius: 30px;
   color: #453e4f;
@@ -391,7 +391,7 @@ header h2 {
 
 .project-link:hover {
   background-color: #cac4d1;
-  color: #f19494;
+  color: #453e4f;
 }
 
 #skills {
@@ -408,7 +408,6 @@ header h2 {
   background-color: #f19494;
   padding: 15px 0;
   margin: 20px 0;
-  border: #453e4f solid;
 }
 
 .tool {
