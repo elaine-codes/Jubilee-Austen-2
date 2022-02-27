@@ -177,6 +177,7 @@ li {
 
 span {
   font-weight: bold;
+  width: 50%;
 }
 
 img {
@@ -722,7 +723,7 @@ footer .social-icons li i {
   }
 
   .project-description {
-    width: 95%;
+    width: 50%;
   }
 
   .language-wrapper,
