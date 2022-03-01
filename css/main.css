@@ -144,10 +144,10 @@ h5 {
 }
 
 .project-link,
-.language-wrapper p,
+.icon p,
 .tool-wrapper p {
   text-transform: uppercase;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #453e4f;
 }
 
@@ -397,18 +397,45 @@ header h2 {
 
 #skills {
   background: rgba(120, 153, 255, 0.2);
+  width: 100%;
 }
 
-#skills h4 {
+#skills .content-wrapper {
+  width: 640px;
+  height: 960px;
+}
+
+#skills h3 {
   margin: 40px 0 40px 0;
   font-weight: bold;
 }
 
-.language-wrapper p,
-.tool-wrapper p {
-  background-color: #f19494;
-  padding: 15px 0;
-  margin: 20px 0;
+.language-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 548px;
+}
+
+.icon {
+  height: 94px;
+  width: 112px;
+  margin: 0 40px 0 0;
+}
+
+.icon img {
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.tool-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 331px;
 }
 
 .tool {
@@ -742,7 +769,7 @@ footer .social-icons li i {
     width: 45%;
   }
 
-  .language-wrapper p,
+  .icon p,
   .tool-wrapper p {
     padding: 15px 0;
   }
@@ -855,7 +882,7 @@ footer .social-icons li i {
   }
 
   .project-link,
-  .language-wrapper p,
+  .icon p,
   .tool-wrapper p {
     font-size: 1rem;
   }
@@ -876,7 +903,7 @@ footer .social-icons li i {
   }
 
   #skills {
-    padding-bottom: 120px;
+    padding-bottom: 70px;
   }
 
   #about {
@@ -905,7 +932,7 @@ footer .social-icons li i {
   }
 
   #skills {
-    padding-top: 120px;
+    padding-top: 70px;
   }
 
   #skills .content-wrapper {
