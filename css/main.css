@@ -410,8 +410,19 @@ header h2 {
   font-weight: bold;
 }
 
-.language-wrapper {
+.language-wrapper,
+.tool-wrapper {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch;
+  flex-flow: row wrap;
+}
+
+.icon-wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -755,6 +766,13 @@ footer .social-icons li i {
 
   .language-wrapper,
   .tool-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .icon-wrapper {
+    width: 30%;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
