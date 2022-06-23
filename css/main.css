@@ -144,6 +144,7 @@ h5 {
 }
 
 .project-link,
+.code-link,
 .icon p,
 .tool-wrapper p {
   text-transform: uppercase;
@@ -278,8 +279,9 @@ h4 {
   margin: 0 0 30px 0;
 }
 
-.project-link {
-  margin: 40px 0 60px 0;
+.project-link,
+.code-link {
+  margin: 20px 0 20px 0;
 }
 
 #skills {
@@ -383,14 +385,24 @@ header h2 {
   filter: drop-shadow(1px 2px 6px lightgrey);
 }
 
-.project-link {
+.links {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-link,
+.code-link {
   background-color: #f19494;
-  padding: 0.75rem 3.75rem;
+  padding: 12px 30px;
   border-radius: 30px;
   color: #453e4f;
 }
 
-.project-link:hover {
+.project-link:hover,
+.code-link:hover {
   background-color: #cac4d1;
   color: #453e4f;
 }
@@ -680,7 +692,8 @@ footer .social-icons li i {
     margin: 0 0 30px 0;
   }
 
-  .project-link {
+  .project-link,
+  .code-link {
     margin: 40px 0 60px 0;
   }
 
@@ -900,6 +913,7 @@ footer .social-icons li i {
   }
 
   .project-link,
+  .code-link,
   .icon p,
   .tool-wrapper p {
     font-size: 1rem;
@@ -945,8 +959,9 @@ footer .social-icons li i {
     margin: 0 0 30px 0;
   }
 
-  .project-link {
-    margin: 40px 0 80px 0;
+  .project-link,
+  .code-link {
+    margin: 40px 0 60px 0;
   }
 
   #skills {
